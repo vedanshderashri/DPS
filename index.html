@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DPS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="social-media">
+        <div class="email">
+            <p><i class="fa-solid fa-envelope"></i> dalaudapublic@gmail.com</p>
+        </div>
+        <div id="sm">
+            <a href="https://www.facebook.com/profile.php?id=61563240650988&mibextid=ZbWKwL"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/DalaudaDps?t=apW1pNLLFka28MLfzJQKCA&s=09"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://youtube.com/@dps_dalauda_official?si=uOW9PxDkhcmrY4J9"><i
+                    class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="logo">
+            <img src="Images/logo.png" width="10%" alt="">
+        </div>
+        <div class="nav">
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
+            <a href="disclosure.html">
+                <li>Disclosure</li>
+            </a>
+            <a href="index.html#carousel">
+                <li>Activity</li>
+            </a>
+            <a href="">
+                <li id="active">Call Us</li>
+            </a>
+        </div>
+        <div class="hambar" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="ham-nav" id="nav-menu">
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
+            <a href="disclosure.html">
+                <li>Disclosure</li>
+            </a>
+            <a href="index.html#carousel">
+                <li>Activity</li>
+            </a>
+            <a href="">
+                <li id="active">Call Us</li>
+            </a>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide first">
+                <img src="Images/sch11.jpg" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="Images/sch18.jpg" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="Images/sch15.jpg" alt="Slide 3">
+            </div>
+            <div class="slide">
+                <img src="Images/sch13.jpg" alt="Slide 4">
+            </div>
+        </div>
+
+        <!-- Left and right arrows -->
+        <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlide(1)">&#10095;</a>
+    </div>
+
+    <div class="school-details">
+        <img src="Images/logo.png" width="10%" alt="">
+        <h1>Dalauda Public School</h1>
+        <p>Dalauda,District Mandsaur, M.P.</p>
+    </div>
+    <div class="counter-wrapper">
+        <div class="counter-container">
+            <i class="fa-solid fa-child"></i>
+            <div class="counter" data-target="1000"></div>
+            <span>Student Strength</span>
+        </div>
+        <div class="counter-container">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <div class="counter" data-target="50"></div>
+            <span>Staff</span>
+        </div>
+        <div class="counter-container">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <div class="counter" data-target="10000"></div>
+            <span>Alumni</span>
+        </div>
+    </div>
+    <div class="about-director">
+        <div class="details-dir">
+            <h1>Director's Message</h1>
+            <p>At our school, we are committed to fostering a nurturing environment where
+                every student can thrive academically, socially, and emotionally. Our goal is to inspire curiosity,
+                build strong values, and equip students with the skills they need to succeed in a rapidly changing
+                world. We believe in holistic education that empowers young minds to become compassionate leaders and
+                responsible citizens. Thank you for entrusting us with your child’s educational journey. Together, we
+                can achieve greatness!
+            </p>
+            <h4>Sonali Jain</h4>
+        </div>
+        <div class="dir-image">
+            <img src="Images/dir.png" alt="">
+        </div>
+    </div>
+    <div class="principle">
+        <div class="details-principle">
+            <h1>Principal's Message</h1>
+            <p>As Principal, I am dedicated to ensuring that our school remains a place where students are encouraged to
+                reach their full potential in a supportive and innovative environment. Our dedicated staff works
+                tirelessly to provide a high-quality education that balances academic achievement with the development
+                of essential life skills. We strive to nurture creativity, integrity, and respect in all of our
+                students, preparing them for the challenges of the future.
+            </p>
+            <h4>Rejimon Sadashivan</h4>
+        </div>
+        <div class="principle-img">
+            <img src="Images/principal.png" alt="">
+        </div>
+    </div>
+
+    <div class="carousel" id="carousel">
+        <img src="Images/sch1.jpg" alt="">
+        <img src="Images/sch2.jpg" alt="">
+        <img src="Images/sch3.jpg" alt="">
+        <img src="Images/sch4.jpg" alt="">
+        <img src="Images/sch5.jpg" alt="">
+        <img src="Images/sch6.jpg" alt="">
+        <img src="Images/sch7.jpg" alt="">
+        <img src="Images/sch8.jpg" alt="">
+        <img src="Images/sch9.jpg" alt="">
+        <img src="Images/sch11.jpg" alt="">
+        <img src="Images/sch12.jpg" alt="">
+        <img src="Images/sch13.jpg" alt="">
+        <img src="Images/sch14.jpg" alt="">
+        <img src="Images/sch15.jpg" alt="">
+        <img src="Images/sch16.jpg" alt="">
+        <img src="Images/sch17.jpg" alt="">
+        <img src="Images/sch18.jpg" alt="">
+    </div>
+    <div class='slide_buttons'>
+        <button class='slider-btn left-btn' id='slideLeft'>&#11013;</button>
+        <button class='slider-btn right-btn' id='slideRight'>&#10145;</button>
+    </div>
+
+    <h1 id="title">Last Year Toppers</h1>
+    <div class="topper">
+        <div class="topp">
+            <img src="Images/topper.webp" alt="">
+            <h1>Name</h1>
+            <p>Percentage</p>
+        </div>
+        <div class="topp">
+            <img src="Images/topper.webp" alt="">
+            <h1>Name</h1>
+            <p>Percentage</p>
+        </div>
+        <div class="topp">
+            <img src="Images/topper.webp" alt="">
+            <h1>Name</h1>
+            <p>Percentage</p>
+        </div>
+        <div class="topp">
+            <img src="Images/topper.webp" alt="">
+            <h1>Name</h1>
+            <p>Percentage</p>
+        </div>
+        <div class="topp">
+            <img src="Images/topper.webp" alt="">
+            <h1>Name</h1>
+            <p>Percentage</p>
+        </div>
+    </div>
+    <h1 id="title">Co-Curricular Achievements</h1>
+    <div class="topper">
+        <div class="topp">
+            <img src="Images/topper.webp" alt="">
+            <h1>Name</h1>
+            <p>Sports Name</p>
+        </div>
+        <div class="topp">
+            <img src="Images/topper.webp" alt="">
+            <h1>Name</h1>
+            <p>Sports Name</p>
+        </div>
+        <div class="topp">
+            <img src="Images/topper.webp" alt="">
+            <h1>Name</h1>
+            <p>Dance</p>
+        </div>
+        <div class="topp">
+            <img src="Images/topper.webp" alt="">
+            <h1>Name</h1>
+            <p>Sports Name</p>
+        </div>
+        <div class="topp">
+            <img src="Images/topper.webp" alt="">
+            <h1>Name</h1>
+            <p>Sports Name</p>
+        </div>
+    </div>
+
+    <h1 id="title">Our Staff</h1>
+    <img src="Images/sch10.png" width="60%" style="margin: auto;display: block;border-radius: 30px;">
+
+    <div class="footer">
+        <div class="map">
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233655.1631560164!2d74.93877791210724!3d23.787930701312142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396425a117e23093%3A0xa75151fb5cceefa2!2sDalauda%20Public%20School%20Dalauda!5e0!3m2!1sen!2sin!4v1729356630903!5m2!1sen!2sin"
+                    width="500px" height="500" style="border:0;margin: 30px 0 0px 0px;" allowfullscreen=""
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        <div class="f-links">
+            <h1>Navigation Links →</h1>
+            <div>
+                <a href="">
+                    <li>→ Home</li>
+                </a>
+                <a href="">
+                    <li>→ About</li>
+                </a>
+                <a href="">
+                    <li>→ Contact</li>
+                </a>
+            </div>
+        </div>
+        <div class="f-links">
+            <h1>Navigation Links →</h1>
+            <div>
+                <a href="">
+                    <li>→ Public Disclosure</li>
+                </a>
+                <a href="">
+                    <li>→ Fee Structure</li>
+                </a>
+                <a href="">
+                    <li>→ Calender</li>
+                </a>
+                <a href="">
+                    <li>→ Uniform</li>
+                </a>
+                <a href="">
+                    <li>→ Bus Route</li>
+                </a>
+                <a href="">
+                    <li>→ Magazine</li>
+                </a>
+                <a href="">
+                    <li>→ Blog</li>
+                </a>
+            </div>
+        </div>
+        <div class="f-sm">
+            <h1>Social Media →</h1>
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=61563240650988&mibextid=ZbWKwL"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/DalaudaDps?t=apW1pNLLFka28MLfzJQKCA&s=09"><i
+                        class="fa-brands fa-twitter"></i></a>
+                <a href="https://youtube.com/@dps_dalauda_official?si=uOW9PxDkhcmrY4J9"><i
+                        class="fa-brands fa-youtube"></i></a>
+            </div>
+            <img src="Images/logo.png" style="width: 150px;background: #fff;border-radius: 50%;padding: 20px;">
+        </div>
+    </div>
+    <div class="copyright">
+        <p style="text-align: center;">Developed By Vedansh Derashri | Copyright © 2030 by Dalauda Public School</p>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/5937d5fd2f.js" crossorigin="anonymous"></script>
+
+</html>
